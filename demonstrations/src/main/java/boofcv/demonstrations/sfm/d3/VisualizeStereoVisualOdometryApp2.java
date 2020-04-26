@@ -188,8 +188,8 @@ public class VisualizeStereoVisualOdometryApp2<T extends ImageGray<T>>
 		Set<String> configuration = new HashSet<>();
 		configuration.add(VisualOdometry.VERBOSE_RUNTIME);
 //		configuration.add(VisualOdometry.VERBOSE_TRACKING);
-
 		alg.setVerbose(System.out,configuration);
+
 		return alg;
 	}
 
